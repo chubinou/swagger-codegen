@@ -93,14 +93,6 @@ public class FlaskConnexionCodegen extends DefaultCodegen implements CodegenConf
          */
         embeddedTemplateDir = templateDir = "flaskConnexion";
 
-        // from https://docs.python.org/release/2.5.4/ref/keywords.html
-        setReservedWordsLowerCase(
-                Arrays.asList(
-                        "and", "del", "from", "not", "while", "as", "elif", "global", "or", "with",
-                        "assert", "else", "if", "pass", "yield", "break", "except", "import",
-                        "print", "class", "exec", "in", "raise", "continue", "finally", "is",
-                        "return", "def", "for", "lambda", "try"));
-
         /*
          * Additional Properties.  These values can be passed to the templates and
          * are available in models, apis, and supporting files
